@@ -13,10 +13,10 @@ Você precisa criar uma API com os seguintes requisitos:
 
 #### End-point para inserção de dados
 
-* O cliente poderá inserir os dados através de requisições informando um único cartão ou a partir de arquivos JSON ou XML a API.
+* O cliente poderá inserir os dados através de requisições informando um único cartão ou a partir de arquivo TXT a API.
 * Defina o contrato da API com os padrões a serem adotados para integração.
 * Escolha o banco de dados que achar melhor e a estrutura que achar mais adequada.
-* Por serem dados sensíveis toda informação deve ser armazenada de maneira segura no banco de dados (não será necessário possuir o número do cartão visível no banco de dados).
+* Por serem dados sensíveis toda informação deve ser armazenada de maneira segura no banco de dados.
 
 #### End-point para consulta de dados
 
@@ -34,7 +34,7 @@ Você precisa criar uma API com os seguintes requisitos:
 
 ## Orientações
 * Procure fazer uma API sucinta. 
-* Os arquivos (JSON e XML) com o formato que o cliente irá enviar estão no repositório.
+* O arquivo TXT com o formato que o cliente irá enviar estão no repositório.
 * Pensar em escalabilidade, pode ser uma quantidade muito grande de dados.
 * Coloque isso em um repositório GIT.
 * Colocar as orientações de setup e uso no README do seu repositório.
