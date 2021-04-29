@@ -25,7 +25,7 @@ Você precisa criar uma API com os seguintes requisitos:
 #### Requisitos Obrigatórios
 
 * Logar as requisições de uso da API e seus retornos.
-* Usar linguagem C# com Framework .NET;
+* Usar linguagem C# com Framework .NET ou Python com Flask ou Django;
 
 #### Requisitos Opcionais (Não necessário)
 
